@@ -55,5 +55,5 @@ Type `http://localhost/reversePolishNotation` in your web browser
 ## Output
 Output of above code
 
-![Output](/thebhandariprakash/reversePolishNotation/blob/master/images/output.jpg?raw=true "Output")
+![Output](https://github.com/thebhandariprakash/reversePolishNotation/blob/master/images/output.jpg?raw=true "Output")
 
