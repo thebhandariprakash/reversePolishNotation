@@ -15,7 +15,10 @@ Type `http://localhost/reversePolishNotation` in your web browser
 
 Evaluate the value of an arithmetic expression in Reverse Polish Notation.
 Valid operators are +, -, *, /. and %
+
 Each operand may be an integer(number) or another expression.
-examples :
-array('3','2','+') ==>> (3 + 2) ==>> 2
-array('2','5','+','3','*') ==>>  ((2 + 5) * 3) ==>> 21
+
+**examples :**
+
+-   array('3','2','+') ==>> (3 + 2) ==>> 2
+-   array('2','5','+','3','*') ==>>  ((2 + 5) * 3) ==>> 21
