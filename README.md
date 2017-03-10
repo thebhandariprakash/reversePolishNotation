@@ -11,16 +11,34 @@ It does not need any parentheses as long as each operator has a fixed number of 
 ## Run project in browser
 Type `http://localhost/reversePolishNotation` in your web browser
 
-## Examples
 
-Evaluate the value of an arithmetic expression in Reverse Polish Notation.
-Valid operators are +, -, *, /. and %
+## Implementing Algoritham
+You can choose one of the expression among the expression ($expression1 0r expression2 or $expression3) and pass to the **calculateResult()** method.
 
-Each operand may be an integer(number) or another expression.
+```php 
+require_once 'Classes/Rpn.php';
 
-**A Numeric Example:**
+use Classes\Rpn;
+
+$expression1 = "3 2 +";
+$expression2 = "2 5 + 3 *";
+$expression3 ="5 1 2 + 4 * + 3 -";
+
+//creating the instance of Rpm class
+$rpn = new Rpn;
+
+$result =  $rpn->calculateResult($expression3);
+
+//output
+echo "<h1>Reverse Polish Notation</h1>";
+
+echo "Expression ==>>  ".$expression3. "<br/>";
+
+echo "Result ==>> ".$result;
+```
 
 
+## A Numeric Example
 
 Expression: 5 + ((1 + 2) * 4) - 3  
 RPN representation:  
