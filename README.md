@@ -4,15 +4,8 @@ Reverse **Polish notation (RPN)** is a mathematical notation in which every oper
 in contrast to Polish notation (PN), which puts the operator before its operands. It is also known as postfix notation. 
 It does not need any parentheses as long as each operator has a fixed number of operands.  visit [wikipedia](https://www.wikiwand.com/en/Reverse_Polish_notation)
 
-## Cloning Project
 
-`https://github.com/thebhandariprakash/reversePolishNotation.git`
-
-## Run project in browser
-Type `http://localhost/reversePolishNotation` in your web browser
-
-
-## Implementing Algoritham
+## Implementing Algoritham Using PHP
 You can choose one of the expression among the expression ($expression1 0r expression2 or $expression3) and pass to the **calculateResult()** method.
 
 ```php 
@@ -51,3 +44,10 @@ The result of this example is 14 and is calculated in the following manner:
 3*4 = 12  
 12+5 = 17  
 17-3 = 14  
+
+## Cloning Project
+
+`https://github.com/thebhandariprakash/reversePolishNotation.git`
+
+## Run project in browser
+Type `http://localhost/reversePolishNotation` in your web browser
