@@ -18,7 +18,18 @@ Valid operators are +, -, *, /. and %
 
 Each operand may be an integer(number) or another expression.
 
-**examples :**
+**A Numeric Example:**
 
--   array('3','2','+') ==>> (3 + 2) ==>> 2
--   array('2','5','+','3','*') ==>>  ((2 + 5) * 3) ==>> 21
+
+
+Expression: 5 + ((1 + 2) * 4) - 3  
+RPN representation:  
+
+5 1 2 + 4 * + 3 -  
+
+The result of this example is 14 and is calculated in the following manner:  
+
+1+2 = 3  
+3*4 = 12  
+12+5 = 17  
+17-3 = 14  
