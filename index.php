@@ -17,16 +17,17 @@ use Classes\Rpn;
 // expressions : Either one is used
 $expression1 = "3 2 +";
 $expression2 = "2 5 + 3 *";
+$expression3 ="5 1 2 + 4 * + 3 -";
 
 //creating the instance of Rpm class
 $rpn = new Rpn;
 
-$result =  $rpn->calculateResult($expression2);
+$result =  $rpn->calculateResult($expression3);
 
 //output
 echo "<h1>Reverse Polish Notation</h1>";
 
-echo "Expression ==>>  ".$expression2. "<br/>";
+echo "Expression ==>>  ".$expression3. "<br/>";
 
 echo "Result ==>> ".$result;
 

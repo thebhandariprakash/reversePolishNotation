@@ -58,8 +58,9 @@ class Rpn
                 }
                 else if ($this->generalMethods->isOperator($item)){
 
-                    $op1 = array_pop($stack);
                     $op2 = array_pop($stack);
+                    $op1 = array_pop($stack);
+
                     $result = 0;
 
                     switch ($item) {
