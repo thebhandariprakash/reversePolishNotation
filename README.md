@@ -30,6 +30,9 @@ echo "Expression ==>>  ".$expression3. "<br/>";
 echo "Result ==>> ".$result;
 ```
 
+Output of above code
+
+![Output](https://github.com/thebhandariprakash/reversePolishNotation/blob/master/images/output.jpg?raw=true "Output") 
 
 ## A Numeric Example
 
@@ -52,8 +55,5 @@ The result of this example is 14 and is calculated in the following manner:
 ## Run project in browser
 Type `http://localhost/reversePolishNotation` in your web browser
 
-## Output
-Output of above code
 
-![Output](https://github.com/thebhandariprakash/reversePolishNotation/blob/master/images/output.jpg?raw=true "Output")
 
